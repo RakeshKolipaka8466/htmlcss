@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./images/bg-rain-drops-on-window-shield.jpg);
+}
+.back{
+    background-color: rgb(233, 227, 227);
+    
+}
+nav{
+    padding: 15px;
+}
+img{
+    width:40px;
+    height: 40px;
+
+}
+img:hover{
+    background-color: blue;
+    opacity: 0.75;
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+}
+.im1,.im2{
+    border: 1px solid;
+    margin: 2px;
+    text-align: center;
+    padding: 1px;
+}
+.im2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+}
+input{
+    padding: 15.5px;
+}
+h1{
+    font-size: 40px;
+}
+.bor{
+    border: 1px solid;
+    padding: 5px;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 5px;
+    
+}
+.bord{
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+button{
+    padding: 6px;
+    background: olive;
+    color: white;
+    border-radius: 5px;
+}
